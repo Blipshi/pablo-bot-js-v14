@@ -2,6 +2,7 @@
   "dependencies": {
     "@discordjs/opus": "^0.8.0",
     "@discordjs/voice": "^0.8.0",
+    "axios": "^1.1.2",
     "discord-ytdl-core": "^5.0.4",
     "discord.js": "^13.6.0",
     "ffmpeg-static": "^4.4.1",
@@ -9,18 +10,18 @@
     "youtube-sr": "^4.1.15",
     "ytdl-core": "^4.11.0"
   },
-  "name": "lightmusicbot",
+  "name": "pablobot",
   "version": "1.3.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "tomato#6966",
+  "author": "angy#0001",
   "license": "MIT",
-  "description": "A super light, fast and simple tho advanced Music Bot, without any Music Manager Packages like Lavalink, discord-player or distube. Technically providing up to all filters of lavalink, but limited to 19 predefined ones, with speed and bassboost control, as well as everything in slash Commands and message Commands!",
+  "description": "Aye foo, I'm pablo, a bootleg mexican that can play music in voice chats. how foo? internet piracy. Now ya might axe yaself, is this legit? Na foo. do I care? Na foo. You cannot stop me. Pablo is forever :)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tomato6966/light-music-bot.git"
+    "url": "https://github.com/angyoo/pablo-bot-js-v14"
   },
   "keywords": [
     "music",

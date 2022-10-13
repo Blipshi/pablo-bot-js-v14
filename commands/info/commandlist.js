@@ -5,7 +5,7 @@ module.exports = {
     description: "Show all of the Commands",
     run: async (client, message, args, prefix) => {
         return message.reply({embeds: [new MessageEmbed()
-            .setColor("FUCHSIA")
+            .setColor("PURPLE")
             .setTitle(`👍 **Here is a list of all of my Commands**`)
             .addFields(client.commands.map(d => {
                 return {

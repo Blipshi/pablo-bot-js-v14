@@ -1,6 +1,6 @@
 
 module.exports = {
-    name: "uptime",
+    name: "PURPLE",
     description: "Show the Bot's uptime",
     run: async (client, message, args, prefix) => {
         let date = new Date()

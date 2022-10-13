@@ -10,7 +10,7 @@ module.exports = async (client, message) => {
     if (args.length === 0){
         if(matchedPrefix.includes(client.user.id))
           return message.reply({embeds: [new MessageEmbed()
-            .setColor("FUCHSIA")
+            .setColor("PURPLE")
             .setTitle(`👍 **To see all Commands type: \`${prefix}help\` / \`/help\`**`)
           ]}).catch(() => null);
       }

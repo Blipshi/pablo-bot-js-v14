@@ -8,7 +8,7 @@ module.exports = {
       .reply({
         embeds: [
           new MessageEmbed()
-            .setColor("FUCHSIA")
+            .setColor("PURPLE")
             .setTitle(`👍 **Here is a list of all of my Commands**`)
             .setDescription("https://pastebin.com/GxGsZXw5")
             .setThumbnail(client.user.displayAvatarURL())
